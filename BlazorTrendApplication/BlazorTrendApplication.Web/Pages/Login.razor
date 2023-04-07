@@ -1,0 +1,26 @@
+﻿@inherits LoginBase
+
+<div class="container">
+    <div class="card mt-3 center p-3" style="width: 45rem;">
+        <h4 style="text-align:center" class="mt-1">Login</h4>
+        <EditForm Model="@loginUser" OnValidSubmit="login">
+            <DataAnnotationsValidator />
+            <div class="form-group">
+                <label>User Name</label>
+                <InputText class="form-control" id="username" @bind-Value="loginUser.UserName"></InputText>
+                <ValidationMessage For="@(() => loginUser.UserName)"/>
+            </div>
+             <div class="form-group">
+                <label>Password</label>
+               <InputText type="password" class="form-control" id="password" @bind-Value="loginUser.Password"></InputText>
+                <ValidationMessage For="@(() => loginUser.Password)"/>
+            </div>
+              <div class="text-center m-2">
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </EditForm>
+    </div>
+    <div  class="m-1" style="text-align: center;font-size: 18px;">
+        <a href="register" class="link-primary">New Register</a>
+    </div>
+</div>

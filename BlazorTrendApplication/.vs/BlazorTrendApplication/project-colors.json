@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "538adb4c-72f1-4dae-ac68-5185daa39555": {
+      "ProjectGuid": "538adb4c-72f1-4dae-ac68-5185daa39555",
+      "DisplayName": "BlazorTrendApplication.Web",
+      "ColorIndex": 0
+    },
+    "0c064ae7-5e7f-4244-bcf8-4398e5f18706": {
+      "ProjectGuid": "0c064ae7-5e7f-4244-bcf8-4398e5f18706",
+      "DisplayName": "BlazorTrendApplication.API",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

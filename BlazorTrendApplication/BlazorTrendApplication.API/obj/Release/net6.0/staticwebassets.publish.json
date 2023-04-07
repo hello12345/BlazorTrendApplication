@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X8qlO99bG5PksCfVUE8oLN87PDbpVZNTbVkwpRsAWhc=",
+  "Source": "BlazorTrendApplication.API",
+  "BasePath": "_content/BlazorTrendApplication.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

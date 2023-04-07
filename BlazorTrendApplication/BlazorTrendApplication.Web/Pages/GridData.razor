@@ -1,0 +1,58 @@
+﻿@using BlazorTrendApplication.Infrastructure.Models
+@attribute [Authorize]
+@inherits GridDataBase
+
+<div class="container @Collapse">
+<DataGrid TItem="UserDetailViewModel"
+          Data="@users"
+          @bind-SelectedRow="@selectedUser"
+          Editable="true"
+          Responsive UseInternalEditing="true" EditMode="DataGridEditMode.Inline" UseValidation ShowValidationsSummary="false"
+          RowUpdated="@OnRowSave" RowInserted="@OnRowSave" RowRemoved="@OnRowRemoved"
+          ReadData="@OnReadData"
+          TotalItems="@totalTrendCount"
+          PageSize="5"
+          ShowPager>
+    <DataGridCommandColumn>
+        <NewCommandTemplate>
+            <Button Color="Color.Success" Outline Clicked="@context.Clicked">New</Button>
+        </NewCommandTemplate>
+        <EditCommandTemplate>
+            <Button Color="Color.Primary" Outline Clicked="@context.Clicked">Edit</Button>
+        </EditCommandTemplate>
+        <DeleteCommandTemplate>
+            <Button Color="Color.Danger" Outline Clicked="@context.Clicked">Delete</Button>
+        </DeleteCommandTemplate>
+        <SaveCommandTemplate>
+            <Button Color="Color.Primary" Outline Clicked="@context.Clicked">Save</Button>
+        </SaveCommandTemplate>
+        <CancelCommandTemplate>
+            <Button Color="Color.Secondary" Outline Clicked="@context.Clicked">Cancel</Button>
+        </CancelCommandTemplate>
+    </DataGridCommandColumn>
+    <DataGridColumn Field="@nameof(UserDetailViewModel.Id)" Caption="#" Sortable="false" />
+    <DataGridColumn Field="@nameof(UserDetailViewModel.Name)" Caption="Name" Editable>
+        <EditTemplate>
+            <Validation Validator="@CheckName">
+                <TextEdit Text="@((string)context.CellValue)" TextChanged="(value => context.CellValue = value)">
+                    <Feedback>
+                        <ValidationError />
+                    </Feedback>
+                </TextEdit>
+            </Validation>
+        </EditTemplate>
+    </DataGridColumn>
+    <DataGridColumn Field="@nameof(UserDetailViewModel.Description)" Caption="Description" Editable />
+    <DataGridColumn Field="@nameof(UserDetailViewModel.Email)" Caption="Email" Editable>
+        <EditTemplate>
+            <Validation Validator="@CheckEmail">
+                <TextEdit Text="@((string)context.CellValue)" TextChanged="(value => context.CellValue = value)">
+                    <Feedback>
+                       <ValidationError>Enter valid Email!</ValidationError>
+                    </Feedback>
+                </TextEdit>
+            </Validation>
+        </EditTemplate>
+    </DataGridColumn>
+</DataGrid>
+</div>

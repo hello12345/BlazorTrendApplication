@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorTrendApplication.Web
+build_property.RootNamespace = BlazorTrendApplication.Web
+build_property.ProjectDir = D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/CollapseView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29sbGFwc2VWaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/EditTrend.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFRyZW5kLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/GridData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JpZERhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/MapTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/TrendList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlbmRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wr6pfqq8fk
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-m7o7s0mm4s
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Shraddha/Project/BlazorTrendApplication/BlazorTrendApplication.Web/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

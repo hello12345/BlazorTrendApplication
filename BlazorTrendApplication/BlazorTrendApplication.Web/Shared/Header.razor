@@ -1,0 +1,29 @@
+﻿
+@inherits HeaderBase
+
+<header style="background-color: #fdb3ba;">
+    <div class="navbar navbar-dark shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <div @onclick="redirectHomePage"><i class="fab fa-tumblr" style="font-size: 50px;margin-left: 15px;"></i><strong style="font-size: 30px;">rend</strong></div>
+        </div>
+        <AuthorizeView>
+            <Authorized>
+                <div class="float-right">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-secondary dropdown-toggle" style="margin-right: 20px;" type="button"
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user-plus" aria-hidden="true" style="font-size:20px;"></i>&nbsp;@userName
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="@($"trendlist/{userId}")">Trend List</a>
+                            <a class="dropdown-item" href="createtrend">Add Trend</a>
+                            <a class="dropdown-item" href="MapTest">Goggle Map</a>
+                            <a class="dropdown-item" href="collapseview">Grid Data</a>
+                            <a class="dropdown-item" href="#" @onclick="logout">Sign out</a>
+                        </div>
+                    </div>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+    </div>
+</header>

@@ -1,0 +1,14 @@
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\bin\Release\net6.0\BlazorTrendApplication.Infrastructure.deps.json
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\bin\Release\net6.0\BlazorTrendApplication.Infrastructure.runtimeconfig.json
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\bin\Release\net6.0\BlazorTrendApplication.Infrastructure.dll
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\bin\Release\net6.0\BlazorTrendApplication.Infrastructure.pdb
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.csproj.AssemblyReference.cache
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.AssemblyInfoInputs.cache
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.AssemblyInfo.cs
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.dll
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\refint\BlazorTrendApplication.Infrastructure.dll
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.pdb
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\BlazorTrendApplication.Infrastructure.genruntimeconfig.cache
+D:\Shraddha\Project\BlazorTrendApplication\BlazorTrendApplication.Infrastructure\obj\Release\net6.0\ref\BlazorTrendApplication.Infrastructure.dll

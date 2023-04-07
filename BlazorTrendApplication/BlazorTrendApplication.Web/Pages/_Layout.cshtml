@@ -1,0 +1,155 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@namespace BlazorTrendApplication.Web.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/demo.css" rel="stylesheet" />
+    <link href="BlazorTrendApplication.Web.styles.css" rel="stylesheet" />
+    <link href="_content/Blazorise/blazorise.css" rel="stylesheet" />
+    <link href="_content/Blazorise.Bootstrap/blazorise.bootstrap.css" rel="stylesheet" />
+    <link href="_content/Blazorise.Snackbar/blazorise.snackbar.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b7926f3752.js" crossorigin="anonymous"></script>
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+</head>
+<body>
+    @RenderBody()
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-EZ-RUForDMgPSuR2j3LrovBcwPWsMZo&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="_content/Blazorise/blazorise.js"></script>
+    <script src="_content/Blazorise.Bootstrap/blazorise.bootstrap.js"></script>
+
+    <script>
+
+                var map;
+                var marker;
+                var markers = [];
+                var searchBox;
+                var address = "new york city";
+                var geocoder;
+
+               function initialize() {
+
+                   var latlng = new google.maps.LatLng(-34.397, 150.644);
+                   var options = {
+                       zoom: 7, center: latlng,
+                       mapTypeId: google.maps.MapTypeId.ROADMAP,
+                       mapTypeControl: false
+                   };
+
+
+                   map = new google.maps.Map(document.getElementById
+                           ("map"), options);
+
+                    geocoder = new google.maps.Geocoder();
+
+
+                          marker = new google.maps.Marker({
+                         map: map,
+                       title: address,
+                       position: latlng
+                   });
+
+
+                  // Append card when map renders
+                  //google.maps.event.addListener(map, 'idle', function(e) {
+                  //  if ( $( ".place-card" ).length === 0 ) {
+                  //  $(".gm-style").append('<div style="position: absolute; left: 0px; top: 0px;"> <div style="margin: 10px; padding: 1px; -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; background-color: white;"> <div> <div class="place-card place-card-large"> <div class="place-desc-large"> <div class="place-name"> Tenuta Cigliano </div><div class="address"> Contrada Pisciarelli, 80078 Napoli, Italy </div></div><div class="navigate"> <div class="navigate"> <a class="navigate-link" href="https://maps.google.com/maps?ll=40.837067,14.136834&amp;z=16&amp;t=m&amp;hl=en-US&amp;gl=PT&amp;mapclient=embed&amp;daddr=Tenuta%20Cigliano%20Contrada%20Pisciarelli%2080078%20Napoli%20Italy@40.837067,14.142821" target="_blank"> <div class="icon navigate-icon"></div><div class="navigate-text"> Directions </div></a> </div></div><div class="review-box"> <div class="" style="display:none"></div><div class="" style="display:none"></div><div class="" style="display:none"></div><div class="" style="display:none"></div><div class="" style="display:none"></div><div class="" style="display:none"></div><a href="https://plus.google.com/101643431012640484007/about?hl=en&amp;authuser=0&amp;gl=pt&amp;socpid=247&amp;socfid=maps_embed:placecard" target="_blank">1 review</a> </div><div class="saved-from-source-link" style="display:none"> </div><div class="maps-links-box-exp"> <div class="time-to-location-info-exp" style="display:none"> <span class="drive-icon-exp experiment-icon"></span><a class="time-to-location-text-exp" style="display:none" target="_blank"></a><a class="time-to-location-text-exp" style="display:none" target="_blank"></a> </div><div class="google-maps-link"> <a href="https://maps.google.com/maps?ll=40.837067,14.136834&amp;z=16&amp;t=m&amp;hl=en-US&amp;gl=PT&amp;mapclient=embed&amp;cid=2152474408176797502" target="_blank">View larger map</a> </div></div><div class="time-to-location-privacy-exp" style="display:none"> <div class="only-visible-to-you-exp"> Visible only to you. </div><a class="learn-more-exp" target="_blank">Learn more</a> </div></div></div></div></div>');
+                  //  }
+                  //  });
+
+                  //Bind the textbox
+                  var input =(document.getElementById('searchMap'));
+                  searchBox = new google.maps.places.SearchBox((input));
+
+                   google.maps.event.addListener(searchBox, 'places_changed', function () {
+                       var places = searchBox.getPlaces();
+                       if (places.length == 0) {
+                           return;
+                       }
+                       markers = [];
+                       var bounds = new google.maps.LatLngBounds();
+                       for (var i = 0, place; place = places[i]; i++) {
+                           var image = {
+                               url: place.icon,
+                               size: new google.maps.Size(71, 71),
+                               origin: new google.maps.Point(0, 0),
+                               anchor: new google.maps.Point(17, 34),
+                               scaledSize: new google.maps.Size(25, 25)
+                           };
+
+                           // Create a marker for each place.
+                           marker = new google.maps.Marker({
+                               map: map,
+                               icon: image,
+                               title: place.name,
+                               position: place.geometry.location
+                           });
+                           console.log('marker: ', marker);
+                           markers.push(marker);
+                           bounds.extend(place.geometry.location);
+                            }
+                       map.fitBounds(bounds);
+                   });
+
+                // Create the initial InfoWindow.
+                let infoWindow = new google.maps.InfoWindow({
+                  content: "Click the map to get Lat/Lng!",
+                  position: latlng,
+                });
+
+                infoWindow.open(map);
+                map.addListener("click", (mapsMouseEvent) => {
+                    debugger
+                  infoWindow.close();
+                  infoWindow = new google.maps.InfoWindow({
+                    position: mapsMouseEvent.latLng,
+                  });
+                  infoWindow.setContent(
+                    JSON.stringify(mapsMouseEvent.latLng.toJSON(), null, 2)
+                  );
+                  infoWindow.open(map);
+                });
+
+
+        //  google.maps.event.addListener(map, 'click', function(event) {
+        //      debugger
+        //  geocoder.geocode({
+        //    'latLng': event.latLng
+        //  }, function(results, status) {
+        //      debugger
+        //    if (status == google.maps.GeocoderStatus.OK) {
+        //      if (results[0]) {
+        //      console.log(results[0]);
+        //      //  alert(results[0].formatted_address);
+        //      }
+        //    }
+        //  });
+        //});
+            }
+
+
+    </script>
+</body>
+</html>

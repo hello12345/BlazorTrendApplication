@@ -1,0 +1,44 @@
+﻿@page "/register"
+@inherits RegisterBase
+
+<div class="container">
+    <div class="card mt-3 center p-3" style="width: 75rem;">
+        <h4 style="text-align:center" class="mt-1" OnValidSubmit="saveUser">Register</h4>
+        <EditForm Model="@user">
+         <DataAnnotationsValidator />
+            <div class="form-group">
+                <label>First Name</label>
+                <InputText class="form-control" id="firstname" @bind-Value="user.FirstName"></InputText>
+                <ValidationMessage For="@(() => user.FirstName)"/>
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+               <InputText class="form-control" id="lastname" @bind-Value="user.LastName"></InputText>
+                <ValidationMessage For="@(() => user.LastName)"/>
+            </div>
+            <div class="form-group">
+                <label>User Name</label>
+                <InputText class="form-control" id="username" @bind-Value="user.UserName"></InputText>
+                <ValidationMessage For="@(() => user.UserName)"/>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <InputText class="form-control" id="email" @bind-Value="user.Email"></InputText>
+                <ValidationMessage For="@(() => user.Email)"/>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+               <InputText type="password" class="form-control" id="password" @bind-Value="user.Password"></InputText>
+                <ValidationMessage For="@(() => user.Password)"/>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <NumericEdit  class="form-control" id="phone" @bind-Value="user.Phone"></NumericEdit>
+                <ValidationMessage For="@(() => user.Phone)"/>
+            </div>
+            <div class="text-center m-2">
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </EditForm>
+    </div>
+</div>

@@ -1,0 +1,350 @@
+﻿++Solution 'BlazorTrendApplication' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:BlazorTrendApplication.sln
+++BlazorTrendApplication.API
+i:{00000000-0000-0000-0000-000000000000}:BlazorTrendApplication.API
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\blazortrendapplication.api.csproj
+++Connected Services 
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:>1491
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1492
+++Dependencies
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:>1490
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:>827
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1489
+++Properties
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\properties\
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\properties\
+++wwwroot
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\
+++Controllers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\controllers\
+++appsettings.json
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\appsettings.json
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\appsettings.json
+++Program.cs
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\program.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\program.cs
+++No service dependencies discovered
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:>1494
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1493
+++Analyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:analyzers
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:analyzers
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:analyzers
+++Frameworks
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:frameworks
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:frameworks
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:frameworks
+++Packages
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:packages
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:packages
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:packages
+++Projects
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:projects
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:projects
+++PublishProfiles
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\properties\publishprofiles\
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\properties\publishprofiles\
+++launchSettings.json
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\properties\launchsettings.json
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\properties\launchsettings.json
+++Image
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\image\
+++TrendController.cs
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\controllers\trendcontroller.cs
+++UserMasterController.cs
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\controllers\usermastercontroller.cs
+++appsettings.Development.json
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\appsettings.development.json
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\users\asus\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.5\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.5\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\microsoft.aspnetcore.app
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\microsoft.netcore.app
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\microsoft.netcore.app
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:>1527
+++Microsoft.Extensions.Configuration (6.0.1)
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:>1529
+++Swashbuckle.AspNetCore (6.2.3)
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:>1528
+++BlazorTrendApplication.Infrastructure
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\blazortrendapplication.infrastructure.csproj
+i:{00000000-0000-0000-0000-000000000000}:BlazorTrendApplication.Infrastructure
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\blazortrendapplication.infrastructure.csproj
+++FolderProfile.pubxml
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\properties\publishprofiles\folderprofile.pubxml
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\properties\publishprofiles\folderprofile.pubxml
+++349139f2-f7ef-4c59-9374-77872d1c3237P7.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\349139f2-f7ef-4c59-9374-77872d1c3237p7.jpg
+++34d453c1-745f-4019-b55e-94fcfbe9205dpawel-czerwinski-8uZPynIu-rQ-unsplash.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\34d453c1-745f-4019-b55e-94fcfbe9205dpawel-czerwinski-8uzpyniu-rq-unsplash.jpg
+++4f24cb9f-3dc3-4592-ac84-07cd7553bc76P10.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\4f24cb9f-3dc3-4592-ac84-07cd7553bc76p10.jpg
+++726ecfb9-272b-44e4-9575-0c5f82484c79P10.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\726ecfb9-272b-44e4-9575-0c5f82484c79p10.jpg
+++7eb78f38-5b92-48dc-87ae-8401d8aa9996pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\7eb78f38-5b92-48dc-87ae-8401d8aa9996pawel-czerwinski-8uzpyniu-rq-unsplash.jpg
+++9083a1a0-f515-475d-ac00-f84ec616d189pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\9083a1a0-f515-475d-ac00-f84ec616d189pawel-czerwinski-8uzpyniu-rq-unsplash.jpg
+++electronics.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\electronics.jpg
+++fashion.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\fashion.jpg
+++jwellry.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\jwellry.jpg
+++P10.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p10.jpg
+++P2.png
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p2.png
+++P3.png
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p3.png
+++P4.png
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p4.png
+++P5.jpeg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p5.jpeg
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\image\p5.jpeg
+++P6.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p6.jpg
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\image\p6.jpg
+++P7.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p7.jpg
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\image\p7.jpg
+++P8.jpg
+i:{0c064ae7-5e7f-4244-bcf8-4398e5f18706}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.api\wwwroot\image\p8.jpg
+++Context
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\context\
+++CustomValidation
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\customvalidation\
+++Interfaces
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\interfaces\
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\interfaces\
+++ModelContext
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\modelcontext\
+++Models
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\models\
+++Repository
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\repository\
+++SharedTrend.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\context\sharedtrend.cs
+++Trend.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\context\trend.cs
+++trend_shraddhaContext.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\context\trend_shraddhacontext.cs
+++User.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\context\user.cs
+++UserDetail.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\context\userdetail.cs
+++IsNumericAttribute.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\customvalidation\isnumericattribute.cs
+++ITrendRepository.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\interfaces\itrendrepository.cs
+++IUserMasterRepository.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\interfaces\iusermasterrepository.cs
+++PageResponse.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\models\pageresponse.cs
+++SharedTrendsModel.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\models\sharedtrendsmodel.cs
+++TrendModel.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\models\trendmodel.cs
+++UserDetailViewModel.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\models\userdetailviewmodel.cs
+++UserModel.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\models\usermodel.cs
+++TrendRepository.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\repository\trendrepository.cs
+++UserMasterRepository.cs
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.infrastructure\repository\usermasterrepository.cs
+++Microsoft.EntityFrameworkCore.Design (6.0.4)
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:>1541
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.3)
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:>1540
+++Microsoft.EntityFrameworkCore.Tools (6.0.3)
+i:{20b047ac-342b-40d4-ae16-8507ab6f5385}:>1542
+++BlazorTrendApplication.Web
+i:{00000000-0000-0000-0000-000000000000}:BlazorTrendApplication.Web
+++css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\css\
+++favicon.ico
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\favicon.ico
+++Data
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\data\
+++CustomAuthenticationStateProvider.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\data\customauthenticationstateprovider.cs
+++LoginViewModel.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\data\loginviewmodel.cs
+++Mapper.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\data\mapper.cs
+++WeatherForecast.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\data\weatherforecast.cs
+++WeatherForecastService.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\data\weatherforecastservice.cs
+++ITrendService.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\interfaces\itrendservice.cs
+++IUserMasterService.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\interfaces\iusermasterservice.cs
+++Pages
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\
+++_Host.cshtml
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\_host.cshtml
+++_Layout.cshtml
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\_layout.cshtml
+++CollapseView.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\collapseview.razor
+++Counter.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\counter.razor
+++EditTrend.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\edittrend.razor
+++EditTrendBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\edittrendbase.cs
+++Error.cshtml
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\error.cshtml
+++FetchData.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\fetchdata.razor
+++GridData.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\griddata.razor
+++GridDataBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\griddatabase.cs
+++Index.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\index.razor
+++IndexBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\indexbase.cs
+++Login.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\login.razor
+++LoginBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\loginbase.cs
+++MapTest.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\maptest.razor
+++Register.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\register.razor
+++RegisterBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\registerbase.cs
+++Test.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\test.razor
+++TrendList.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\trendlist.razor
+++TrendListBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\trendlistbase.cs
+++Services
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\services\
+++GlobalService.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\services\globalservice.cs
+++TrendService.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\services\trendservice.cs
+++UserMasterService.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\services\usermasterservice.cs
+++Shared
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\
+++Header.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\header.razor
+++HeaderBase.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\headerbase.cs
+++MainLayout.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\mainlayout.razor
+++NavMenu.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\surveyprompt.razor
+++_Imports.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\_imports.razor
+++App.razor
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\app.razor
+++bootstrap
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\bootstrap\
+++open-iconic
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\
+++demo.css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\demo.css
+++site.css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\site.css
+++Error.cshtml.cs
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\pages\error.cshtml.cs
+++MainLayout.razor.css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\shared\navmenu.razor.css
+++Blazored.SessionStorage (2.2.0)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1508
+++Blazorise.Bootstrap (1.0.1)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1509
+++Blazorise.DataGrid (1.0.1)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1511
+++Blazorise.Icons.FontAwesome (1.0.1)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1510
+++Blazorise.Snackbar (1.0.1)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1507
+++Microsoft.AspNetCore.Blazor.HttpClient (3.2.0-preview3.20168.3)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1512
+++Newtonsoft.Json (13.0.1)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1506
+++System.Reactive (5.0.0)
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:>1505
+++bootstrap.min.css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\readme.md
+++bootstrap.min.css.map
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\fonts\
+++open-iconic-bootstrap.min.css
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{538adb4c-72f1-4dae-ac68-5185daa39555}:c:\kishan\demoprj\blazor\blazortrendapplication\blazortrendapplication\blazortrendapplication.web\wwwroot\css\open-iconic\font\fonts\open-iconic.woff

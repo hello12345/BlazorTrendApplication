@@ -1,0 +1,63 @@
+﻿@page "/createtrend"
+@page "/edittrend/{Id}"
+@inherits EditTrendBase
+@attribute [Authorize]
+
+<div class="container">
+    <div class="card mt-3 center p-3" style="width: 75rem;">
+        <h4 style="text-align:center" class="mt-1">Trend</h4>
+        <EditForm Model="@trend" OnValidSubmit="saveTrend">
+            <DataAnnotationsValidator />
+            <div class="form-group">
+                <label>Trend Type</label>
+                <InputSelect class="form-control" @bind-Value="trend.TrendType">
+                    @foreach (var trendtype in Enum.GetValues(typeof(TrendTypes)))
+                    {
+                        <option value="@trendtype">@trendtype</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="@(() => trend.TrendType)"/>
+            </div>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <InputText class="form-control" id="title" @bind-Value="trend.Title"></InputText>
+                <ValidationMessage For="@(() => trend.Title)"/>
+            </div>
+            <div class="form-group">
+                <label for="introduction">Introduction</label>
+                <InputTextArea class="form-control" id="introduction" @bind-Value="trend.Introduction"></InputTextArea>
+                   <ValidationMessage For="@(() => trend.Introduction)"/>
+            </div>
+            <div class="form-group">
+                <label for="summary">Summary</label>
+                <InputTextArea class="form-control" id="summary" @bind-Value="trend.Summary"></InputTextArea>
+            </div>
+             <div class="form-group">
+                <label for="image">Image</label><br />
+                @if(trend.ImgFile != null)
+                {
+                    <img src="@trend.ImgFile" alt="Lights" style="width:140px;height:125px">
+                }
+                <InputFile class="form-control" id="image" OnChange="@selectimgfile"></InputFile>
+            </div>
+             <div class="form-group">
+                <label for="targetedViewer">Targeted Viewer</label>
+                <InputText class="form-control" id="targetedViewer" @bind-Value="trend.TargetedViewer"></InputText>
+            </div>
+             <div class="form-group">
+                <label for="price">Price</label>
+                <NumericEdit class="form-control" id="price" @bind-Value="trend.Price"></NumericEdit>
+                 <ValidationMessage For="@(() => trend.Price)"/>
+            </div>
+            <div class="form-group">
+                <InputCheckbox @bind-Value="trend.Active">Active</InputCheckbox>
+            </div>
+             <div class="text-center">
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+
+
